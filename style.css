@@ -1,0 +1,67 @@
+html{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    align-items: center;
+    display: flex;
+}
+.logo{
+    color: hotpink;
+    font-size: 2opx;
+    text-align:right;
+}
+.logo span{color: yellowgreen;}
+.link{
+    padding: 0;
+    text-align: center;
+}
+.link a{
+    text-align: center;
+    align-items: center;
+    color: hotpink;   
+}
+.link a:hover{
+    color: black;
+}
+.HOME-container{
+   background-color: lightpink;
+   text-align: center;
+   width: 100%;
+   padding: 20px 10px; 
+   justify-content: center;
+}
+.HOME p{
+    font-style: italic;
+}
+button {
+    padding: 15px 25px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d8431f;
+}
+.PRODUCT-container{
+padding: 10px 10px;
+text-align: center;
+background-image: url(p3.jpg);
+}
+
+.FEATURES-container{
+    padding: 10px 20px;
+    background-color: lightpink;
+    width: 100%;
+    text-align: center;
+}
+.FEATURES p{font-style: italic;}
+
+
+
